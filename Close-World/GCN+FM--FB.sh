@@ -1,0 +1,1 @@
+python -u GCN+FM.py --load_model ./GCN+FM/ConMask_DEFAULT_0.ckpt --neg_num 10 --scale_1 10 --scale_2 10 --dim 200 --batch 200 --data ./data/FB15K-237/ --save_per 1 --eval_per 1 --worker 10 --eval_batch 1 --max_iter 100 --generator 1
